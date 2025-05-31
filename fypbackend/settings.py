@@ -53,7 +53,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Replace with your actual React app URL
+    "https://fyp-frontend-deployment-gold.vercel.app",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
