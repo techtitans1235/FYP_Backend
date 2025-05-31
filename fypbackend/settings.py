@@ -52,9 +52,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "https://fyp-frontend-deployment-gold.vercel.app",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://fyp-frontend-deployment-gold.vercel.app",
+# ]
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_CREDENTIALS = True
 
